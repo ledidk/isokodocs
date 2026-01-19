@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'djangoapp.categories',
     'djangoapp.documents',
     'djangoapp.reports',
+    'djangoapp.core',
 ]
 
 MIDDLEWARE = [
