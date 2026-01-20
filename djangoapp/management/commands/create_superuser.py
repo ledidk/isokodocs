@@ -19,8 +19,8 @@ class Command(BaseCommand):
         )
         parser.add_argument(
             '--password',
-            default='admin123',
-            help='Password for the superuser (default: admin123)'
+            default='123admin',
+            help='Password for the superuser (default: 123admin)'
         )
         parser.add_argument(
             '--no-input',
@@ -79,7 +79,7 @@ class Command(BaseCommand):
                 )
             )
             
-            if password == 'admin123':
+            if password == '123admin':
                 self.stdout.write(
                     self.style.WARNING(
                         'WARNING: Using default password. Change this in production!'
