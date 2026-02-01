@@ -1,9 +1,0 @@
-- [x] Wait for docker-compose up --build to complete building and starting services
-- [x] Verify services are running (db, backend on 8000, frontend on 5173)
-- [x] Launch browser at http://localhost:5173 to view the frontend
-- [x] Check for any errors in browser console or page loading issues
-- [ ] If issues, check backend logs via docker-compose logs backend
-- [ ] Run seed_categories if needed: docker-compose exec backend python manage.py seed_categories
-- [ ] Create superuser if needed: docker-compose exec backend python manage.py createsuperuser
-- [ ] Test basic functionality (login, register, upload, etc.)
-- [ ] Fix any identified issues (e.g., missing dependencies, config errors)

@@ -53,7 +53,7 @@ IsokoDocs is a production-ready full-stack web application for archiving and sha
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/isokodocs.git
+   git clone https://github.com/ledidk/isokodocs.git
    cd isokodocs
    ```
 
